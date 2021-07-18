@@ -11,7 +11,7 @@
 
 <br>
 
-#### Boilerplate Code
+### Boilerplate Code
 
 ```c
 #include<stdio.h>
@@ -19,19 +19,19 @@ int main(){
     return 0;
 }
 ```
-#### printf() function
+### printf() function
 It is used to print anything/show output on console
 
 ```c
 printf("Hello World");
 ```
-#### scanf() function
+### scanf() function
 It is used to take input from user
 
 ```c
 scanf("format specifier",variable_name);
 ```
-#### Variables 
+### Variables 
 It is data name that is used to store the data value in the memory.
 
 Rules to declare variables:
@@ -47,7 +47,7 @@ int_type | Valid | Keywords can be used as combination |
 
 <br>
 
-#### Basic Data Types
+### Basic Data Types
 
 **char** - It stores single character. Size - 1 byte
 ```c
@@ -88,7 +88,7 @@ void main(){
 }
 ```
 
-#### Operators
+### Operators
 
 **Arithmetic Operators**
 
