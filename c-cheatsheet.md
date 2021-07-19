@@ -31,7 +31,7 @@
         - [Important String Functions](#important-string-functions)
     - [Structures](#structures)
     - [Dynamic Memory Allocation](#dynamic-memory-allocation)
-    - [``PENDING...``](#pending)
+    - [File Handling](#file-handling)
 
 ---
 
@@ -430,8 +430,43 @@ var = (int*)malloc(n * sizeof(int))
 
 **calloc() function**
 Stands for “contiguous allocation” method in C is used to dynamically allocate the specified number of blocks of memory of the specified type.
+```c
+var = (cast_type*)calloc(n, size);
+```
+
+**realloc() function**
+If the allocated memory is insufficient, then we can change the size of previously allocated memory using this function for efficiency purposes.
+```c
+var = realloc(var2,n);
+```
+
+### File Handling
+
+**Creating File Pointer**
+```c
+FILE *file
+```
+
+**Opening a File**
+```c
+file = fopen(file_name.txt,w)
+```
+
+**fscanf() function**
+Used to read file content
+```c
+fscanf(FILE *stream, const char *format, ..);
+```
+
+**fprintf() function**
+Used to write the file content
+```c
+fprintf(FILE *var, const char *str,..);
+```
+
+**Closing a File**
+```c
+fclose(file);
+```
 
 ---
-
-
-### ``PENDING...``
