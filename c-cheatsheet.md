@@ -117,6 +117,8 @@ void main(){
 ```
 
 ### Format Specifiers
+
+
 | Format Specifier | Type                 |
 | ---------------- | -------------------- |
 | %c               | Character            |
@@ -132,6 +134,7 @@ void main(){
 | %%               | prints % symbol      |
 
 ### Escape Sequences
+
 
 | Escape Sequence | Type                      |
 | --------------- | ------------------------- |
