@@ -32,7 +32,7 @@
     - [Structures](#structures)
     - [Dynamic Memory Allocation](#dynamic-memory-allocation)
     - [File Handling](#file-handling)
-    - [Download PDF](#download-pdf)
+    - [Download PDF, Raw [TXT](https://drive.google.com/file/d/1waheH9NGtibta68lVNR5cBTIcSzbmmpJ/view?usp=sharing)](#download-pdf-raw-txt)
 
 ---
 
@@ -477,4 +477,7 @@ fclose(file);
 
 ---
 
-### Download [PDF](https://drive.google.com/file/d/1jiZ7QRxc3InPc9ftDsobemQquRUhbqG3/view?usp=sharing)
+*Something is missing? Contribute to this [repo](https://github.com/rohan-k14/coding-cheatsheets) and improve.*
+
+---
+### Download [PDF](https://drive.google.com/file/d/1jiZ7QRxc3InPc9ftDsobemQquRUhbqG3/view?usp=sharing), Raw [TXT](https://drive.google.com/file/d/1waheH9NGtibta68lVNR5cBTIcSzbmmpJ/view?usp=sharing)
