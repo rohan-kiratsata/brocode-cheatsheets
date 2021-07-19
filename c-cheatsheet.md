@@ -1,7 +1,5 @@
 # C Cheatsheet
 
-<button href="c-cheatsheet.pdf" download="c-cheatsheet">Download Cheatsheet PDF</button>
-
 ## Table of content
 
 - [C Cheatsheet](#c-cheatsheet)
@@ -34,6 +32,7 @@
     - [Structures](#structures)
     - [Dynamic Memory Allocation](#dynamic-memory-allocation)
     - [File Handling](#file-handling)
+    - [Download PDF](#download-pdf)
 
 ---
 
@@ -477,3 +476,5 @@ fclose(file);
 ```
 
 ---
+
+### Download [PDF](https://drive.google.com/file/d/1jiZ7QRxc3InPc9ftDsobemQquRUhbqG3/view?usp=sharing)
