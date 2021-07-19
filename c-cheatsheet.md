@@ -1,5 +1,7 @@
 # C Cheatsheet
 
+<button href="c-cheatsheet.pdf" download="c-cheatsheet">Download Cheatsheet PDF</button>
+
 ## Table of content
 
 - [C Cheatsheet](#c-cheatsheet)
