@@ -47,6 +47,7 @@
 int main(){
     return 0;
 }
+
 ```
 ### printf() function
 It is used to print anything/show output on console
