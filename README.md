@@ -6,5 +6,5 @@
 <br>
 
 1. ### [C Cheatsheet](c-cheatsheet.md)
-2. ### [Python Cheatsheet](python-python-cheatsheet.md)
+2. ### [Python Cheatsheet](python-cheatsheet.md)
 3. ### [Java Cheatsheet]()
