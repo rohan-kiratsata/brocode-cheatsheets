@@ -52,6 +52,7 @@
 ```
 
 #### Basic Data Types
+
 | Data Type   | Example    |
 |--------------- | --------------- |
 | Integer   | `-2,-1,0,1,2`   |
