@@ -53,13 +53,13 @@
 
 #### Basic Data Types
 
-| Data Type   | Example    |
-|--------------- | --------------- |
-| Integer   | `-2,-1,0,1,2`   |
-| Float| `-1.5, -1.92, 2.25, 16.4`|
-|String| `'python'`,`'is'`,`'love'`|
-|Complex|`1j`, `1+2j`
-|Boolean|`x = True`, `x = False`|
+| Data Type | Example                    |
+| --------- | -------------------------- |
+| Integer   | `-2,-1,0,1,2`              |
+| Float     | `-1.5, -1.92, 2.25, 16.4`  |
+| String    | `'python'`,`'is'`,`'love'` |
+| Complex   | `1j`, `1+2j`               |
+| Boolean   | `x = True`, `x = False`    |
 
 #### Taking User Input
 input() function is used to take input from the user.
