@@ -1,5 +1,7 @@
 # C Cheatsheet
-**Download [PDF]()**
+**Download [PDF](https://github.com/rohan-kiratsata/coding-cheatsheets/tree/main/PDFs)**
+
+Download Link : https://github.com/rohan-kiratsata/coding-cheatsheets/tree/main/PDFs
 
 ## Table of content
 
@@ -479,7 +481,12 @@ fclose(file);
 ---
 *This Cheatsheet is contributed by [Rohan Kiratsata](https://rohan-kiratsata.github.io)*
 
+*Personal Site Link : https://rohan-kiratsata.github.io*
+
+---
 
 *Something is missing? Contribute to this [repo](https://github.com/rohan-k14/coding-cheatsheets) and improve.*
+
+*Contribution Repo: https://github.com/rohan-k14/coding-cheatsheets*
 
 ---
