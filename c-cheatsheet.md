@@ -1,5 +1,5 @@
 # C Cheatsheet
-**Download [PDF](https://drive.google.com/file/d/1jiZ7QRxc3InPc9ftDsobemQquRUhbqG3/view?usp=sharing), Raw [TXT](https://drive.google.com/file/d/1waheH9NGtibta68lVNR5cBTIcSzbmmpJ/view?usp=sharing)**
+**Download [PDF]()**
 
 ## Table of content
 
@@ -110,7 +110,7 @@ double var = 12.1531452;
 double more_var = 542.12452;
 ```
 
-**void** - Represents the absense of type.
+**void** - Represents the absence of type.
 
 ```c
 void main(){
@@ -172,7 +172,7 @@ void main(){
 | Operator | Example | Meaning                     |
 | -------- | ------- | --------------------------- |
 | <        | a < b   | is less than                |
-| >        | a > b   | is greatar than             |
+| >        | a > b   | is greater than             |
 | <=       | a<=b    | is less than or equal to    |
 | >=       | a>=b    | is greater than or equal to |
 
@@ -304,7 +304,7 @@ continue;
 ```
 
 ### Functions
-Functions are used to divide the code and to avoid repeatative task. It provides resuability and readability to code.
+Functions are used to divide the code and to avoid repetitive task. It provides reusability and readability to code.
 **Function Declaration**
 ```c
 return_type function_name(data_type-parameters){
@@ -477,6 +477,8 @@ fclose(file);
 ```
 
 ---
+*This Cheatsheet is contributed by [Rohan Kiratsata](https://rohan-kiratsata.github.io)*
+
 
 *Something is missing? Contribute to this [repo](https://github.com/rohan-k14/coding-cheatsheets) and improve.*
 
