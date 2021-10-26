@@ -1,9 +1,15 @@
+## *In Progress...*
+
+- [*In Progress...*](#in-progress)
 - [Basics](#basics)
     - [Basic Boilerplate Code - Hello World Program](#basic-boilerplate-code---hello-world-program)
 - [Comments](#comments)
+    - [Single Line Comment](#single-line-comment)
+    - [Multi-Line Comments](#multi-line-comments)
 - [User Input in Java](#user-input-in-java)
 - [Data Types](#data-types)
       - [Primitive Data Type](#primitive-data-type)
+- [*In Progress...*](#in-progress-1)
 
 ## Basics
 
@@ -74,3 +80,4 @@ public class test{
 | **Boolean**   | bool isValid = true; | 1 bit   |
 | **Character** | char letter = "J";   | 2 bytes |
 
+## *In Progress...*
