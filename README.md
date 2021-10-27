@@ -1,7 +1,7 @@
 # Coding Cheatsheets
 
 #### Visit Site [Here](https://rohan-kiratsata.github.io/coding-cheatsheets/)
-#### Download all cheatsheets from [Here](https://github.com/rohan-kiratsata/coding-cheatsheets/tree/main/PDFs). Help me improve by contributing to this [repo](https://github.com/rohan-kiratsata/coding-cheatsheets)
+#### Download all cheatsheets from [Here](https://github.com/rohan-kiratsata/coding-cheatsheets/tree/main/PDFs). Improve this repository by contributing to this [repo](https://github.com/rohan-kiratsata/coding-cheatsheets)
 
 <br>
 
