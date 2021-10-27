@@ -4,12 +4,14 @@
 - [Basics](#basics)
     - [Basic Boilerplate Code - Hello World Program](#basic-boilerplate-code---hello-world-program)
 - [Comments](#comments)
-    - [Single Line Comment](#single-line-comment)
-    - [Multi-Line Comments](#multi-line-comments)
+  - [Single Line Comment](#single-line-comment)
+  - [Multi-Line Comments](#multi-line-comments)
 - [User Input in Java](#user-input-in-java)
 - [Data Types](#data-types)
-      - [Primitive Data Type](#primitive-data-type)
-- [*In Progress...*](#in-progress-1)
+  - [Primitive Data Type](#primitive-data-type)
+- [Java Operator](#java-operator)
+  - [Types of Operators](#types-of-operators)
+    - [Arithmetic Operators](#arithmetic-operators)
 
 ## Basics
 
@@ -25,7 +27,7 @@ public class test{
 ```
 ## Comments 
 Comments are used to make code more readable or to explain java code. Comments are ignored while executing the code.
-#### Single Line Comment
+### Single Line Comment
 Single Line comments starts with double forward slashes(//).
 Syntax for Single Line Comment:
 
@@ -33,7 +35,7 @@ Syntax for Single Line Comment:
 //This is comment and will be ignored by java while executing.
 System.out.println("HelloWorld");
 ```
-#### Multi-Line Comments
+### Multi-Line Comments
 Multi-line comments starts with `/*` and ends with `*/`.
 Any code between these two will be ignored.
 
@@ -67,7 +69,7 @@ public class test{
 
 ## Data Types
 
-##### Primitive Data Type
+### Primitive Data Type
 
 | Data Type     | Example              | Size    |
 | ------------- | -------------------- | ------- |
@@ -80,4 +82,27 @@ public class test{
 | **Boolean**   | bool isValid = true; | 1 bit   |
 | **Character** | char letter = "J";   | 2 bytes |
 
-## *In Progress...*
+
+## Java Operator
+
+Operator are used to perform mathematical operations on variables and values.
+
+### Types of Operators
+
+- Arithmetic Operators
+- Assignment Operators
+- Logical Operators
+- Comparison Operators
+- Bitwise Operators
+  
+#### Arithmetic Operators
+
+|Operator  |  Name |About |Example|
+|---|---|--|--|
+| +  | Addition  |Adds the variables| a + b|
+|-|Subtraction|Subtracts the variables|a - b|
+|*|Multiplication|Multiply the variables| a * b|
+|/| Division|Divides the variables|a / b|
+|%| Modulas| prints the remainder of division|a % b|
+|++| Increment| Increment the values by 1| a++|
+|--|Decrement| Decrement the values by 1|a--|
