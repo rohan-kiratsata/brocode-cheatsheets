@@ -12,6 +12,9 @@
 - [Java Operator](#java-operator)
   - [Types of Operators](#types-of-operators)
     - [Arithmetic Operators](#arithmetic-operators)
+    - [Logical Operators](#logical-operators)
+    - [Relational Operators](#relational-operators)
+    - [Bitwise Operator](#bitwise-operator)
 
 ## Basics
 
@@ -66,7 +69,6 @@ public class test{
 }
 ```
 
-
 ## Data Types
 
 ### Primitive Data Type
@@ -90,19 +92,39 @@ Operator are used to perform mathematical operations on variables and values.
 ### Types of Operators
 
 - Arithmetic Operators
-- Assignment Operators
 - Logical Operators
-- Comparison Operators
+- Relational Operators
 - Bitwise Operators
   
 #### Arithmetic Operators
 
-|Operator  |  Name |About |Example|
+| Operator | Name           | About                            | Example |
+| -------- | -------------- | -------------------------------- | ------- |
+| +        | Addition       | Adds the variables               | a + b   |
+| -        | Subtraction    | Subtracts the variables          | a - b   |
+| *        | Multiplication | Multiply the variables           | a * b   |
+| /        | Division       | Divides the variables            | a / b   |
+| %        | Modulus        | prints the remainder of division | a % b   |
+| ++       | Increment      | Increment the values by 1        | a++     |
+| --       | Decrement      | Decrement the values by 1        | a--     |
+
+#### Logical Operators
+
+| Operator  | Name  |About|Example|
+|---|---|---|---|
+| &&   | Logical AND  | If any one of the condition is false, then result becomes false.|A && B (If A is true and B is false then result is FALSE)|
+| \|\| |Logical OR| If any one of the condition is true then result becomes true| A \|\| B (If A is true and B is false then result is TRUE)|
+|!|Logical NOT| It is used to reverse the logical state of operand. If condition is FALSE then NOT operator will make it TRUE| !A (Here If A is TRUE the !A(NOT A) becomes FALSE)|
+
+#### Relational Operators
+| Operator  | Name  |About|Example|
 |---|---|--|--|
-| +  | Addition  |Adds the variables| a + b|
-|-|Subtraction|Subtracts the variables|a - b|
-|*|Multiplication|Multiply the variables| a * b|
-|/| Division|Divides the variables|a / b|
-|%| Modulas| prints the remainder of division|a % b|
-|++| Increment| Increment the values by 1| a++|
-|--|Decrement| Decrement the values by 1|a--|
+| ==  | Equals to  |Check two variables if they are equal or not| a == b|
+| <|Less than| Checks if left variable is less than or not of right variable| a < b|
+|>|Greater than| Checks if left variable is greater than or not of right variable| a > b|
+|<=| Less than or equal to| Check if left variable is less than or equal to right variable| a <= b|
+|>=|Greater than or equal to| Checks if left variable is greater than or equal to right variable| a>=b|
+
+#### Bitwise Operator
+
+*In progress*
