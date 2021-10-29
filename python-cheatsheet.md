@@ -105,6 +105,15 @@ myString2 = "is easy"
 ConString = myString + myString2
 print(ConString)
 ```
+
+A way to concatenate the string with a variable using , (comma).
+
+```python
+no_of_apples = 20
+print("We have", no_of_apples,"apples in a basket")
+# OUTPUT: We have 20 apples in a basket*
+```
+
 ### String Replication
 
 ```python
