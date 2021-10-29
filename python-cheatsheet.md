@@ -1,4 +1,3 @@
-## *In Progress...*
 
 # Python Cheatsheet
 
@@ -36,6 +35,7 @@
     - [Creating a Function](#creating-a-function)
     - [Calling Function](#calling-function)
     - [Passing Arguments](#passing-arguments)
+  - [Lambda Functions](#lambda-functions)
 
 
 ## Basics
@@ -456,4 +456,20 @@ def greet(name, lastname):
     print("Hello " + name + lastname + ", Good Morning" )
 
 greet("Rohan", "Kiratsata")
+```
+
+## Lambda Functions
+A lambda function is a small anonymous function means function without name.
+
+```
+SYNTAX
+
+lambda arguments: expression
+```
+```py
+# Lambda function to square of number
+
+n = lambda x : x*x
+
+print(n(5))
 ```
