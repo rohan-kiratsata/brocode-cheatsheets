@@ -51,5 +51,4 @@ Website Link [here](https://rohan-kiratsata.github.io/brocode-cheatsheets/).
 ---
 ### 🤝 *How to Contribute?*
 
-Feel free to create you own cheatsheet for your favorite programming language, framework, or tools. Make changes and  do a pull request and I will review them before merging
-
+Feel free to create you own cheatsheet for your favorite programming language, framework, or tools. Make changes and  do a pull request and I will review them before merging.
