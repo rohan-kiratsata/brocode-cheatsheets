@@ -20,6 +20,7 @@ BroCode cheatsheets are  comprehensive cheatsheet for popular programming langua
 </details>
 
 #### 🌏 Frontend
+
 <details>
 <summary> Cheatsheets </summary>
 
@@ -29,12 +30,15 @@ BroCode cheatsheets are  comprehensive cheatsheet for popular programming langua
 </details>
 
 #### ⚙ Backend
+
 <details>
 <summary>Cheatsheets</summary>
 
 
 </details>
+
 #### 🛠 Tools
+
 <details>
 <summary> Cheatsheet </summary>
 
