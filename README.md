@@ -1,10 +1,37 @@
-# Coding Cheatsheets
+<img align="center" src="images/logo.png" alt="">
 
-#### Visit Site [Here](https://rohan-kiratsata.github.io/coding-cheatsheets/)
-#### Download all cheatsheets from [Here](https://github.com/rohan-kiratsata/coding-cheatsheets/tree/main/PDFs). Improve this repository by contributing to this [repo](https://github.com/rohan-kiratsata/coding-cheatsheets)
+---
 
-<br>
+### *Table of Content*
 
-1. ### [C Cheatsheet](c-cheatsheet.md)
-2. ### [Python Cheatsheet](python-cheatsheet.md)
-3. ### [Java Cheatsheet](java-cheatsheet.md)
+#### 📚Languages
+
+<details>
+<summary> Cheatsheets </summary>
+
+- [Bash](404.md)
+- [C](c-cheatsheet.md)
+- [Java](java-cheatsheet.md)
+- [Python](python-cheatsheet.md)
+<!-- - C++ in progress -->
+
+</details>
+
+#### 🌏 Frontend
+<details>
+<summary> Cheatsheets </summary>
+
+- HTML
+- CSS
+
+</details>
+
+#### ⚙ Backend
+
+#### 🛠 Tools
+<details>
+<summary> Cheatsheet </summary>
+
+- VSCode
+  
+</details>
