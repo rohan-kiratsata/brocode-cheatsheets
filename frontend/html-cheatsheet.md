@@ -361,3 +361,7 @@ Choose Age:
 <input type="radio" name="age" value="19-40"> 19 - 40
 <input type="radio" name="age" value=">= 41"> >= 41
 ```
+Choose Age:
+<input type="radio" name="age" value="0-18"> 0 - 18
+<input type="radio" name="age" value="19-40"> 19 - 40
+<input type="radio" name="age" value=">= 41"> >= 41
