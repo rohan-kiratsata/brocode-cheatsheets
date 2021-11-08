@@ -31,6 +31,7 @@
   - [HTML Classes & ID](#html-classes--id)
     - [HTML Class Attribute](#html-class-attribute)
     - [HTML ID Attribute](#html-id-attribute)
+  - [HTML Symbols & Emojis](#html-symbols--emojis)
 
 
 ## HTML Basics
@@ -439,3 +440,34 @@ Own CSS:
     color: blue;
 }
 ```
+
+## HTML Symbols & Emojis
+
+```html
+<!-- Copyright Symbol -->
+<p>Symbol : &copy; </p>
+<!-- Registered Sign -->
+<p>Symbol : &reg; </p>
+<!-- Trademark Sign -->
+<p>Symbol : &trade; </p>
+<!-- Emojis -->
+<p>Emojis : &#128512;</p>
+<p>Emojis : &#128519;</p>
+<p>Emojis : &#128526;</p>
+```
+
+<p>Symbol : &copy; </p>
+<p>Symbol : &reg; </p>
+<p>Symbol : &trade; </p>
+
+<p>Emojis : &#128512;</p>
+<p>Emojis : &#128519;</p>
+<p>Emojis : &#128526;</p>
+
+*Full list of symbol reference [here](https://www.htmlsymbols.xyz/)*
+*Full list of Emojis [here]()*
+
+
+---
+
+**Something is missing? Contribute [here](https://github.com/rohan-kiratsata/brocode-cheatsheets)**
