@@ -26,6 +26,11 @@
     - [Form Tag `<form>`](#form-tag-form)
     - [Input Tag `<input>`](#input-tag-input)
     - [Radio Buttons](#radio-buttons)
+    - [Checkbox Buttons](#checkbox-buttons)
+    - [Buttons](#buttons)
+  - [HTML Classes & ID](#html-classes--id)
+    - [HTML Class Attribute](#html-class-attribute)
+    - [HTML ID Attribute](#html-id-attribute)
 
 
 ## HTML Basics
@@ -365,3 +370,72 @@ Choose Age:
 <input type="radio" name="age" value="0-18"> 0 - 18
 <input type="radio" name="age" value="19-40"> 19 - 40
 <input type="radio" name="age" value=">= 41"> >= 41
+
+### Checkbox Buttons
+Checkbox buttons are used to choose many options together.
+
+```html
+Choose Something:
+<input type="checkbox" name="something" value="Data 1"> Data 1
+<input type="checkbox" name="something" value="Data 2"> Data 2
+<input type="checkbox" name="something" value="Data 3"> Data 3
+```
+<input type="checkbox" name="something" value="Data 1"> Data 1
+<input type="checkbox" name="something" value="Data 2"> Data 2
+<input type="checkbox" name="something" value="Data 3"> Data 3
+
+### Buttons
+
+```html
+<input type="button" value="Click Me">
+```
+<input type="button" value="Click Me">
+
+---
+
+## HTML Classes & ID
+
+### HTML Class Attribute
+The `class` attribute is used to point a class name in a CSS style and JavaScript. Using class name we can add our own custom CSS style like changing font, colors and many more.
+
+```html
+
+<div class="vehicles">
+    <p> This is Bike </p>
+</div>
+
+<div class="vehicles">
+    <p> This is Car </p>
+</div>
+
+<div class="vehicles">
+    <p> This is Bus </p>
+</div>
+```
+
+Applying Our own CSS:
+```css
+.vehicles{
+    color: red;
+    font-size: 20px;
+}
+```
+
+*Note:*
+- Class name is case sensitive.
+- Class attribute can be used on any HTML tag.
+- Classes are used by CSS and JS to access specific element.
+
+### HTML ID Attribute
+The HTML `id` attribute is used to specify a unique id for an HTML element.
+
+```html
+<div id="text">This is Text </p>
+```
+Own CSS:
+```css
+#text{
+    font-size: 15px;
+    color: blue;
+}
+```
