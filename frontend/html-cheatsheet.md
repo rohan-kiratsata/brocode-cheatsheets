@@ -3,7 +3,9 @@
 - [HTML Cheatsheet](#html-cheatsheet)
   - [HTML Basics](#html-basics)
     - [Boilerplate Code](#boilerplate-code)
-  - [Headings](#headings)
+    - [HTML Comments](#html-comments)
+    - [Headings Tag](#headings-tag)
+    - [Paragraph Tag `<p>`](#paragraph-tag-p)
 
 
 ## HTML Basics
@@ -30,7 +32,10 @@ The `<body>` tag everything we need in html page like images, text, links, table
 
 ---
 
-## Headings
+### HTML Comments
+Comments are piece of code ignored by browsers. Comments are used to indicate sections or to keep 
+
+### Headings Tag
 
 HTML heading ranges from `<h1>` to `<h6>` tags.
 
@@ -50,3 +55,13 @@ HTML heading ranges from `<h1>` to `<h6>` tags.
 <h5>Level 5 Heading</h5>
 <h6>Level 6 Heading</h6>
 
+---
+
+### Paragraph Tag `<p>`
+
+`<p>` tag is used to structure your text into different paragraphs.
+
+```html
+<p> This is the paragraph </p>
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque </p>
+```
