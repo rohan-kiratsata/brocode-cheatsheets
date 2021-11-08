@@ -7,6 +7,6 @@
 
 ## Frontend
 
-- #### [HTML](frontend/html-cheatsheet.md.)
+- #### [HTML](frontend/html-cheatsheet.md)
 - #### [CSS](404.html)
 

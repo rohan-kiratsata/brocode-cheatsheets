@@ -26,7 +26,7 @@ Website Link [here](https://rohan-kiratsata.github.io/brocode-cheatsheets/).
 <details>
 <summary> Cheatsheets </summary>
 
-- HTML
+- [HTML](frontend/html-cheatsheet.md)
 - CSS
 
 </details>
