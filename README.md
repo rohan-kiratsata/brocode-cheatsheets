@@ -14,9 +14,9 @@ Website Link [here](https://rohan-kiratsata.github.io/brocode-cheatsheets/).
 <summary> Cheatsheets </summary>
 
 - [Bash](404.md)
-- [C](c-cheatsheet.md)
-- [Java](java-cheatsheet.md)
-- [Python](python-cheatsheet.md)
+- [C](languages/c-cheatsheet.md)
+- [Java](languages/java-cheatsheet.md)
+- [Python](languages/python-cheatsheet.md)
 <!-- - C++ in progress -->
 
 </details>
