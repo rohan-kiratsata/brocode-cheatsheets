@@ -15,6 +15,8 @@
     - [Italic Text Tag `<i>`](#italic-text-tag-i)
     - [Subscript Text Tag `<sub>`](#subscript-text-tag-sub)
     - [Superscript Text Tag `<sup>`](#superscript-text-tag-sup)
+  - [List](#list)
+    - [Unordered List](#unordered-list)
     - [Ordered List](#ordered-list)
   - [HTML Hyperlinks](#html-hyperlinks)
   - [HTML Media](#html-media)
@@ -193,13 +195,11 @@ This is <sub>Subscript</sub>Text
 ```html
 x<sup>2</sup>
 x<sup>a+b</sup>
-````
+```
 **OUTPUT**
 
 x<sup>2</sup>
 x<sup>a+b</sup>
-
----
 
 ## List
 ### Unordered List
