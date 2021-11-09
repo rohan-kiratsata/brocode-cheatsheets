@@ -1,3 +1,5 @@
+![Logo](images/logo.png)
+
 ## Languages
 
 - #### [C](languages/c-cheatsheet.md)
