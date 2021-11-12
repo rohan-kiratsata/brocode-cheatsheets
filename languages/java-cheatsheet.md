@@ -15,6 +15,10 @@
     - [Logical Operators](#logical-operators)
     - [Relational Operators](#relational-operators)
     - [Bitwise Operator](#bitwise-operator)
+- [Conditional Statements](#conditional-statements)
+  - [If Statements](#if-statements)
+  - [Else Statement](#else-statement)
+  - [Else if Statements](#else-if-statements)
 
 ## Basics
 
@@ -128,3 +132,53 @@ Operator are used to perform mathematical operations on variables and values.
 #### Bitwise Operator
 
 *In progress*
+
+
+## Conditional Statements
+
+### If Statements
+`if` statements are used to specify block of code to be executed if condition is `true`
+
+```java
+if(condition){
+    //block of code
+}
+
+//EXAMPLE:
+int a = 5;
+int b = 2;
+if(a > b){
+  System.out.println("A is greater");
+}
+```
+
+### Else Statement 
+
+`else` block is executed if the `if` block is `false`
+
+```java
+if(condition){
+  //code
+}
+else{
+  //executed this block if above "if" block is false
+}
+```
+
+### Else if Statements
+`else if` is used to specify multiple if condition.
+
+```java
+if(condition){
+  //code 1
+}
+else if(condition2){
+  // execute this block if above "if" is false.
+}
+else if(condition3){
+  // execute this block if above "else if" block is false.
+}
+else{
+  // execute this if all above block is false.
+}
+```
