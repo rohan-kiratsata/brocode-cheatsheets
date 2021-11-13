@@ -19,6 +19,21 @@
   - [If Statements](#if-statements)
   - [Else Statement](#else-statement)
   - [Else if Statements](#else-if-statements)
+- [Switch Statement](#switch-statement)
+- [Loops](#loops)
+  - [While Loop](#while-loop)
+  - [For Loop](#for-loop)
+  - [Do While Loop](#do-while-loop)
+- [Break/Continue Statements](#breakcontinue-statements)
+- [Arrays](#arrays)
+  - [Declaring Array](#declaring-array)
+  - [Defining Array](#defining-array)
+  - [Access an Array Element](#access-an-array-element)
+  - [Array Length](#array-length)
+- [2D Array](#2d-array)
+- [Methods (Functions)](#methods-functions)
+  - [Declaring Method](#declaring-method)
+    - [Method Overloading](#method-overloading)
 
 ## Basics
 
@@ -182,3 +197,177 @@ else{
   // execute this if all above block is false.
 }
 ```
+
+## Switch Statement
+
+```java
+switch(condition){
+  case A:
+    // code
+    break;
+
+  case B:
+    //code
+    break;
+  
+  case C:
+    //code
+    break;
+  
+  default:
+    //code
+}
+```
+
+## Loops
+
+### While Loop
+```java
+while(condition){
+  //code
+}
+```
+Example Code:
+
+```java
+//print 1 to 10
+int i=1;
+while(i<=10){
+  System.out.println(i);
+  i++;
+}
+```
+
+### For Loop
+```java
+for(initialization; condition; increment/decrement){
+  //code
+}
+
+//print 1 to 10
+
+for(int i=1; i<=10; i++){
+  System.out.println(i);
+}
+```
+
+### Do While Loop
+```java
+do{
+  //loop body or code
+}
+while(condition);
+
+
+//Example Code:
+int i=1;
+do{
+  System.out.println(i);
+  i++;
+}
+while(i<=10);
+```
+
+## Break/Continue Statements
+
+`break` statement is used to jump out of the loop.
+
+```java
+for(int i=1; i<=10;i++){
+  //break loop if value of i becomes 5
+  if(i == 5){
+    break;
+  }
+  System.out.print(i + " ");
+}
+
+//OUTPUT:
+// 1 2 3 4
+```
+
+`continue` statement is used skip the one iteration in the loop. 
+```java
+for(int i=1; i<=10; i++){
+  if(i==5){
+      continue;
+  }
+  System.out.print(i+" ");
+}
+
+// OUTPUT:
+// 1 2 3 4 6 7 8 9 10
+// Here 5 is skipped
+```
+
+## Arrays
+Arrays are used to store multiple values of same data type in single variable. Array Index starts from 0.
+
+### Declaring Array
+```java
+int[] id; //declaring array
+id = new int[5]; //allotting memory to array
+
+//Another Way to declare array
+int[] id = new int[5];
+```
+### Defining Array
+```java
+int[] id = {1,2,3,4,5};
+```
+
+### Access an Array Element
+```java
+String[] arr = {'ABC','XYZ', 'PQR'};
+System.out.println(arr[1]);
+
+//Changing Array Element
+arr[2] = "RST";
+//"PQR" will be changed to "RST"
+```
+### Array Length
+```java
+System.out.println(arr.length);
+```
+
+## 2D Array
+```java
+//Creating 2x2 Matrix Array
+int[2][2] matrix = new int[2][2];
+//the two brackets( [2][2] ) represents no. of rows and columns
+// Here array of 2 row and 2 col are declared.
+
+//defining array
+int[2][2] matrix = {
+// COL 1  COL 2
+  {12,    54},   // ROW 1
+  {67,    23}    // ROW 2 
+};
+```
+
+## Methods (Functions)
+
+### Declaring Method
+```java
+//SYNTAX
+returnType methodName(parameters){
+  //code
+}
+
+//EXAMPLE
+int printNum(int a){
+  return a;
+}
+
+//CALLING METHOD
+//SYNTAX : methodName(arguments);
+// EXAMPLE:
+    printNum(5);
+//     ↑     ↑
+//  Method   Arguments
+//  Name
+```
+
+#### Method Overloading
+
+Two or more methods can have same name but different parameters, such methods are called "overloaded methods".
+
