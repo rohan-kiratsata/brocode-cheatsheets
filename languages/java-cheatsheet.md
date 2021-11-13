@@ -34,6 +34,7 @@
 - [Methods (Functions)](#methods-functions)
   - [Declaring Method](#declaring-method)
     - [Method Overloading](#method-overloading)
+- [Recursion](#recursion)
 
 ## Basics
 
@@ -371,3 +372,36 @@ int printNum(int a){
 
 Two or more methods can have same name but different parameters, such methods are called "overloaded methods".
 
+```java
+//Method 1 (0 Arguments)
+
+static void greet(){
+  System.out.println("Good Morning");
+}
+
+//Method 2 (1 Arguments)
+static void greet(String name){
+  System.out.println("Good Morning " + name);
+}
+
+//Calling Both Methods
+greet();                //OUTPUT: Good Morning
+greet("Carl Johnson")   //OUTPUT: Good Morning Carl Johnson
+```
+
+## Recursion
+Recursion is the technique of making a function call itself.
+
+```java
+//Factorial of Number in Recursion
+static int factorial(int n){
+  if(n == 0){
+    return 1;
+  }
+  return n * factorial(n-1);
+//                ↑
+//          This is recursive function call.
+}
+```
+
+##
