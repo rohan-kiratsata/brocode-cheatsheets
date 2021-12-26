@@ -404,4 +404,3 @@ static int factorial(int n){
 }
 ```
 
-##
