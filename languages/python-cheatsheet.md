@@ -414,7 +414,6 @@ for i in range(101):
     print("Hello World")
 
 ```
-**Learn More about Range() Function [Here](https://www.geeksforgeeks.org/python-range-function/)**
 
 ## Functions
 
