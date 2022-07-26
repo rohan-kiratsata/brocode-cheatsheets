@@ -481,3 +481,4 @@ n = lambda x : x*x
 
 print(n(5))
 ```
+**Learn More about Lambda Functions [Here](https://www.scaler.com/topics/how-to-use-lambda-functions-in-python/)**
